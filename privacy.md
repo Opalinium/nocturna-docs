@@ -31,7 +31,6 @@ We use this information only to:
 **How long we keep data:**
 - Moderation logs: Until you delete them
 - Voice activity: 7 days
-- Message logs: 90 days
 - Message content: Deleted when message is deleted from Discord, or automatically after 180 days
 - Invite tracking: 30 days
 - Your settings/tags: Until you delete them
