@@ -74,3 +74,9 @@ For data deletion, provide your server ID and confirm you're a server admin.
 ---
 
 *By using Nocturna, you agree to this privacy policy.*
+
+---
+
+© 2025 Nocturna. All Rights Reserved.
+
+This Terms of Service document is specific to the Nocturna Discord bot. Unauthorized copying or use of this document is prohibited.
