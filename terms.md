@@ -2,7 +2,7 @@
 
 **Effective Date:** October 1, 2025
 
-**Last Updated:** October 1, 2025
+**Last Updated:** October 19, 2025
 
 By adding Nocturna ("the Bot") to your Discord server or using any of its features, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not use the Bot.
 
@@ -14,14 +14,22 @@ These Terms constitute a legally binding agreement between you (the "User" or "S
 
 Nocturna is a Discord bot that provides:
 
+### Free Features:
 - **Moderation Tools:** Kick, ban, mute, warn, and infraction tracking with case management
-- **Server Management:** Role menus, autoroles, custom tags, and permission configurations
+- **Server Management:** Limited role menus, autoroles, custom tags, and permission configurations
 - **Event Logging:** Comprehensive server event tracking and audit logs
-- **Content Filtering:** Automated content moderation with customizable filter rules and strike systems
+- **Content Filtering:** Automated content moderation with customizable filter rules and strike systems (limited)
 - **Utility Features:** Reminders, server information, user lookups, and custom commands
 - **Anti-Raid Protection:** Automated detection and mitigation of server raids
 - **Slowmode Management:** Dynamic and static slowmode configurations
 - **Voice Activity Tracking:** Logging of voice channel join/leave events and session durations
+
+### Premium Features (Patreon Supporters):
+- **Unlimited Role Menus:** No limit on role menus (vs 1 for free)
+- **Unlimited Content Filters:** No limit on custom filters (vs 3 for free)
+- **Enhanced Role Menus:** Up to 25 roles per menu (vs 5 for free)
+- **Advanced Filters:** Up to 10 triggers per filter (vs 3 for free)
+- **Custom Server Branding:** Personalized bot display name and avatar per server
 
 ## 3. Eligibility
 
@@ -29,9 +37,53 @@ You must be at least 13 years old (or the minimum age required in your jurisdict
 
 Server Administrators must have the appropriate permissions within their Discord server to add and configure bots.
 
-## 4. User Responsibilities
+## 4. Premium Subscription Terms
 
-### 4.1 Acceptable Use
+### 4.1 Patreon Integration
+
+Premium features are provided to active Patreon supporters who have:
+- An active subscription to our Patreon campaign
+- Linked their Discord account to their Patreon account
+- Authorized the Bot to verify their Patreon status
+
+### 4.2 Subscription Management
+
+- Premium status is verified through Patreon's OAuth2 API
+- Subscription status is periodically synchronized
+- Features are enabled/disabled automatically based on subscription status
+- Premium features apply per-user or per-server depending on the feature
+
+### 4.3 Server-Level Premium
+
+- Server owners can apply their premium benefits to their server
+- Only one premium subscription is needed per server
+- The subscriber must maintain their Patreon subscription for continued access
+- Server-level premium includes custom branding and increased limits
+
+### 4.4 Subscription Cancellation
+
+- You can cancel your Patreon subscription at any time
+- Premium features will remain active until your current billing period ends
+- After cancellation, features revert to free tier limits
+- No refunds are provided (subscription is through Patreon)
+
+### 4.5 No Guarantee of Availability
+
+We reserve the right to:
+- Modify or discontinue premium features at any time
+- Change premium tier benefits with reasonable notice
+- Adjust pricing through Patreon (new prices apply to new/renewing subscribers)
+
+### 4.6 Billing and Refunds
+
+- All billing is handled through Patreon
+- Refund requests must be directed to Patreon
+- We do not process payments or refunds directly
+- Subscription disputes should be resolved through Patreon's support
+
+## 5. User Responsibilities
+
+### 5.1 Acceptable Use
 
 You agree to use the Bot only for lawful purposes and in accordance with these Terms. You agree NOT to:
 
@@ -43,8 +95,10 @@ You agree to use the Bot only for lawful purposes and in accordance with these T
 - Use the Bot in a manner that could damage, disable, or impair the service
 - Share or distribute content that violates Discord's Terms of Service or Community Guidelines
 - Attempt to bypass rate limits or other protective measures
+- Share premium features with non-subscribers (account sharing)
+- Use premium features in violation of Patreon's Terms of Service
 
-### 4.2 Server Administrator Responsibilities
+### 5.2 Server Administrator Responsibilities
 
 Server Administrators are responsible for:
 
@@ -53,10 +107,20 @@ Server Administrators are responsible for:
 - Monitoring automated moderation features and reviewing automated actions
 - Understanding that content filters and automated moderation may require manual oversight
 - Maintaining appropriate backup of critical server configurations
+- Managing premium feature access for their server
+- Ensuring custom branding complies with Discord's Community Guidelines
 
-## 5. Bot Permissions and Access
+### 5.3 Premium Subscriber Responsibilities
 
-### 5.1 Required Permissions
+Premium subscribers agree to:
+- Maintain an active Patreon subscription for continued access
+- Not share account credentials or premium benefits with non-subscribers
+- Use custom branding features responsibly and in compliance with Discord's guidelines
+- Not abuse premium features or exploit increased limits
+
+## 6. Bot Permissions and Access
+
+### 6.1 Required Permissions
 
 The Bot requires certain Discord permissions to function properly, including:
 
@@ -68,14 +132,15 @@ The Bot requires certain Discord permissions to function properly, including:
 - View Audit Log (for enhanced logging capabilities)
 - Read Message History (for purge operations)
 - Manage Webhooks (for advanced logging features)
+- Change Nickname (for custom branding - premium feature)
 
-### 5.2 Permission Modifications
+### 6.2 Permission Modifications
 
-Server Administrators may restrict the Bot's permissions at any time. However, restricting permissions may limit or break certain Bot features. We are not responsible for functionality issues caused by permission restrictions.
+Server Administrators may restrict the Bot's permissions at any time. However, restricting permissions may limit or break certain Bot features, including premium features. We are not responsible for functionality issues caused by permission restrictions.
 
-## 6. Moderation and Content
+## 7. Moderation and Content
 
-### 6.1 Automated Actions
+### 7.1 Automated Actions
 
 The Bot performs automated moderation actions based on configured rules, including:
 
@@ -89,7 +154,7 @@ The Bot performs automated moderation actions based on configured rules, includi
 - Server Administrators are responsible for reviewing and managing automated actions
 - We are not liable for incorrect, unwanted, or improperly configured automated moderation
 
-### 6.2 Content Responsibility
+### 7.2 Content Responsibility
 
 Server Administrators are solely responsible for:
 
@@ -97,22 +162,42 @@ Server Administrators are solely responsible for:
 - Moderation decisions made using Bot features
 - Configuration of content filters, strike systems, and automated rules
 - Messages sent using the Bot's commands or features
+- Custom branding content (display names, avatars - premium feature)
 
-## 7. Data and Privacy
+### 7.3 Custom Branding Guidelines
 
-The Bot collects and stores data as described in our [Privacy Policy](privacy.md). By using the Bot, you consent to data collection and processing as outlined in the Privacy Policy.
+When using custom branding features (premium), you agree to:
+- Comply with Discord's Community Guidelines
+- Not impersonate Discord, Discord staff, or other bots
+- Not use offensive, misleading, or inappropriate names/avatars
+- Not use branding that violates intellectual property rights
 
-### 7.1 Data Retention
+We reserve the right to disable custom branding that violates these guidelines.
+
+## 8. Data and Privacy
+
+The Bot collects and stores data as described in our [Privacy Policy](PRIVACY_POLICY.md). By using the Bot, you consent to data collection and processing as outlined in the Privacy Policy.
+
+### 8.1 Data Retention
 
 Data is retained as specified in our Privacy Policy. **Data is NOT automatically deleted when the Bot is removed from a server.** Server Administrators may request deletion of their server's data by contacting us through our support channels.
 
-### 7.2 Data Security
+### 8.2 Data Security
 
 While we implement reasonable security measures to protect data, including database encryption and secure access controls, we cannot guarantee absolute security. You acknowledge that you provide data at your own risk.
 
-## 8. Availability and Modifications
+### 8.3 Patreon Data
 
-### 8.1 Service Availability
+By connecting your Patreon account, you authorize us to:
+- Access your Patreon profile to verify supporter status
+- Store your Patreon user ID and subscription information
+- Periodically check your subscription status
+
+You can revoke this authorization through Patreon's settings at any time, which will disable premium features.
+
+## 9. Availability and Modifications
+
+### 9.1 Service Availability
 
 We strive to provide reliable service, but we do not guarantee:
 
@@ -120,8 +205,9 @@ We strive to provide reliable service, but we do not guarantee:
 - Availability during maintenance periods or system updates
 - Immunity from bugs, technical issues, or Discord API limitations
 - Specific uptime percentages or service level agreements
+- Continuous availability of premium features
 
-### 8.2 Modifications to Service
+### 9.2 Modifications to Service
 
 We reserve the right to:
 
@@ -129,12 +215,14 @@ We reserve the right to:
 - Update these Terms of Service with or without prior notice
 - Change or remove commands, features, or functionality
 - Implement rate limits or usage restrictions to ensure fair usage
+- Modify premium feature offerings or benefits
+- Adjust feature limits for free and premium tiers
 
 Continued use of the Bot after modifications constitutes acceptance of the updated Terms.
 
-## 9. Rate Limits and Restrictions
+## 10. Rate Limits and Restrictions
 
-### 9.1 Discord API Compliance
+### 10.1 Discord API Compliance
 
 The Bot operates within Discord's API rate limits. We implement rate limiting and protective measures to:
 
@@ -143,20 +231,25 @@ The Bot operates within Discord's API rate limits. We implement rate limiting an
 - Protect Bot infrastructure and performance
 - Comply with Discord's API requirements
 
-### 9.2 Command Cooldowns
+### 10.2 Command Cooldowns
 
 Certain commands may have cooldowns or usage limits per user or per server to prevent spam, abuse, and excessive resource consumption.
 
-## 10. Termination and Removal
+### 10.3 Feature Limits
 
-### 10.1 Voluntary Removal
+Free tier users are subject to feature limits as described in Section 2. Premium subscribers receive increased or unlimited access to certain features.
+
+## 11. Termination and Removal
+
+### 11.1 Voluntary Removal
 
 Server Administrators may remove the Bot from their server at any time. Upon removal:
 - The Bot will cease functioning in that server
 - Data will NOT be automatically deleted (see Privacy Policy for data deletion procedures)
 - Server Administrators may request manual data deletion
+- Premium features will be deactivated for that server
 
-### 10.2 Involuntary Removal
+### 11.2 Involuntary Removal
 
 We reserve the right to:
 
@@ -164,32 +257,46 @@ We reserve the right to:
 - Revoke access for users or servers that abuse Bot features
 - Terminate service without notice for severe violations
 - Ban users or servers from using the Bot
+- Suspend or revoke premium features for Terms violations
 
-### 10.3 Effect of Termination
+### 11.3 Premium Subscription Termination
+
+We may revoke premium features if:
+- Your Patreon subscription is cancelled or expires
+- You violate these Terms while using premium features
+- You abuse premium features or exploit increased limits
+- Custom branding violates Discord's guidelines
+
+### 11.4 Effect of Termination
 
 Upon termination:
 - The Bot will cease functioning in affected servers
 - Access to Bot features will be revoked
+- Premium features will be immediately disabled
 - Data retention follows our Privacy Policy
-- No refunds or compensation will be provided (the Bot is provided free of charge)
+- No refunds or compensation will be provided
 
-## 11. Intellectual Property
+## 12. Intellectual Property
 
-### 11.1 Bot Ownership
+### 12.1 Bot Ownership
 
 The Bot, including its code, design, features, and documentation, is owned by us and protected by intellectual property laws. These Terms do not grant you any ownership rights to the Bot.
 
-### 11.2 User Content
+### 12.2 User Content
 
-You retain ownership of content you create using the Bot (tags, custom commands, filter rules, etc.). However, by using the Bot, you grant us a non-exclusive, worldwide license to store, process, and display your content as necessary to provide the service.
+You retain ownership of content you create using the Bot (tags, custom commands, filter rules, custom branding, etc.). However, by using the Bot, you grant us a non-exclusive, worldwide license to store, process, and display your content as necessary to provide the service.
 
-### 11.3 Feedback
+### 12.3 Feedback
 
 Any feedback, suggestions, or ideas you provide about the Bot may be used by us without any obligation to compensate you.
 
-## 12. Disclaimers and Limitations of Liability
+### 12.4 Patreon Trademarks
 
-### 12.1 No Warranty
+Patreon and related marks are trademarks of Patreon, Inc. Use of these marks does not imply endorsement.
+
+## 13. Disclaimers and Limitations of Liability
+
+### 13.1 No Warranty
 
 THE BOT IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
 
@@ -198,8 +305,9 @@ THE BOT IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, E
 - Warranties that the Bot will be error-free or uninterrupted
 - Warranties that defects will be corrected
 - Warranties regarding automated moderation accuracy
+- Warranties regarding premium feature availability
 
-### 12.2 Limitation of Liability
+### 13.2 Limitation of Liability
 
 TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR:
 
@@ -209,18 +317,25 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR:
 - Damages resulting from bugs, errors, or service interruptions
 - Damages resulting from automated moderation actions or filter configurations
 - Damages resulting from incorrect or unwanted moderation decisions
+- Loss of premium features due to subscription issues or service changes
+- Issues arising from Patreon service interruptions or API changes
+- Damages from custom branding features or configurations
 - Any damages exceeding $100 USD (or equivalent)
 
-### 12.3 Third-Party Services
+### 13.3 Third-Party Services
 
-The Bot operates through Discord's platform. We are not responsible for:
+The Bot operates through Discord's platform and integrates with Patreon. We are not responsible for:
 
 - Discord service outages or interruptions
 - Changes to Discord's API or Terms of Service
 - Discord's data handling or privacy practices
 - Issues caused by Discord's platform limitations
+- Patreon service availability or functionality
+- Changes to Patreon's API or policies
+- Billing issues handled through Patreon
+- Patreon's data handling or privacy practices
 
-## 13. Indemnification
+## 14. Indemnification
 
 You agree to indemnify, defend, and hold harmless the Bot operator, its affiliates, and their respective officers, directors, employees, and agents from any claims, damages, losses, liabilities, and expenses (including legal fees) arising from:
 
@@ -230,34 +345,41 @@ You agree to indemnify, defend, and hold harmless the Bot operator, its affiliat
 - Content you create or distribute using the Bot
 - Your server's use of automated moderation features
 - Incorrect configuration of Bot features
+- Use of premium features or custom branding
+- Disputes with Patreon regarding billing or subscriptions
 
-## 14. Dispute Resolution
+## 15. Dispute Resolution
 
-### 14.1 Informal Resolution
+### 15.1 Informal Resolution
 
 Before pursuing formal legal action, you agree to contact us to attempt to resolve the dispute informally.
 
-### 14.2 Governing Law
+### 15.2 Governing Law
 
 These Terms shall be governed by and construed in accordance with the laws of Canada, without regard to its conflict of law provisions.
 
-## 15. Severability
+### 15.3 Arbitration
+
+Any disputes not resolved informally shall be resolved through binding arbitration in accordance with the rules of the Canadian jurisdiction where the service operator resides.
+
+## 16. Severability
 
 If any provision of these Terms is found to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary, and the remaining provisions shall remain in full force and effect.
 
-## 16. Entire Agreement
+## 17. Entire Agreement
 
 These Terms, together with our Privacy Policy, constitute the entire agreement between you and us regarding the Bot and supersede any prior agreements.
 
-## 17. Contact Information
+## 18. Contact Information
 
 For questions, concerns, or notices regarding these Terms:
 
 - **Support Server:** https://discord.gg/VjbkYtDxZf
+- **Patreon:** https://patreon.com/NocturnaBot
 
-## 18. Special Provisions
+## 19. Special Provisions
 
-### 18.1 Beta Features
+### 19.1 Beta Features
 
 Some Bot features may be labeled as "beta" or "experimental." These features:
 
@@ -265,22 +387,28 @@ Some Bot features may be labeled as "beta" or "experimental." These features:
 - May be modified or removed without notice
 - Are provided without additional warranties
 - Should be tested carefully before use in production environments
+- May be available to premium subscribers first
 
-### 18.2 Guild Join Logging
+### 19.2 Guild Join Logging
 
 When the Bot joins a new server, basic information about the server (name, ID, owner, member count) is logged to a private monitoring channel for administrative awareness and service monitoring purposes.
 
-## 19. Updates to Terms
+### 19.3 Premium Feature Restoration
+
+Custom branding and premium configurations are automatically restored when the Bot reconnects or restarts, subject to active subscription status.
+
+## 20. Updates to Terms
 
 We may update these Terms from time to time. When we make material changes:
 
 - The "Last Updated" date will be revised
 - We will announce changes in our support server
+- Material changes affecting premium features will be communicated to premium subscribers
 - Continued use of the Bot constitutes acceptance of updated Terms
 
 You are responsible for regularly reviewing these Terms.
 
-## 20. Acknowledgment
+## 21. Acknowledgment
 
 By adding Nocturna to your Discord server or using any of its features, you acknowledge that:
 
@@ -289,6 +417,8 @@ By adding Nocturna to your Discord server or using any of its features, you ackn
 - You agree to be bound by these Terms
 - You are authorized to agree to these Terms on behalf of your server (if applicable)
 - You understand that data is not automatically deleted when the Bot is removed
+- You understand that premium features require an active Patreon subscription
+- You understand that we may modify or discontinue features at any time
 
 ---
 
