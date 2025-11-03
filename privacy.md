@@ -1,7 +1,7 @@
 # Privacy Policy for Nocturna
 
 **Effective Date:** October 1, 2025  
-**Last Updated:** October 19, 2025
+**Last Updated:** November 3, 2025
 
 This Privacy Policy explains what information Nocturna collects and how we use it.
 
@@ -23,10 +23,11 @@ This Privacy Policy explains what information Nocturna collects and how we use i
 
 **Premium subscription information:**
 - Patreon user IDs (if you're a patron)
-- Subscription status and tier
+- Subscription status and tier level (Basic, Plus, or Pro)
 - Discord account linked to your Patreon account
-- Premium guild associations
+- Premium guild associations and activation history
 - Subscription start and expiration dates
+- Guild activation count per tier
 
 ## How We Use Your Data
 
@@ -48,6 +49,7 @@ We use this information only to:
 - Your settings/tags: Until you delete them
 - Premium subscription data: Duration of subscription plus 90 days after expiration
 - Custom branding settings: Duration of premium subscription
+- Archived anti-raid custom patterns: 3 months after premium expires (automatically deleted after 3 months)
 
 **Premium message retention:**
 - Premium servers receive extended message log retention of 2 years (730 days)
@@ -68,9 +70,10 @@ We use this information only to:
 
 **What we receive from Patreon:**
 - Your Patreon user ID
-- Your supporter tier/level
+- Your supporter tier/level (Basic, Plus, or Pro)
 - Your subscription status (active/inactive)
 - Your Discord account connection (if linked on Patreon)
+- Subscription tier change history (for enforcement of guild limits)
 
 **You can revoke our access** at any time through your Patreon account settings. This will disable premium features but will not delete stored data unless you request deletion.
 
@@ -87,6 +90,12 @@ We use this information only to:
 - Your premium subscription status with other users
 - Your Patreon information with Discord (beyond what Discord already has)
 - Any personally identifiable information with third parties
+- Guild activation information between server owners
+
+**Automated notifications:**
+- Server owners may receive a notification when someone activates premium in their server
+- Users receive notifications when their guilds are automatically deactivated due to tier downgrades
+- These notifications contain only the guild name and activation status, no personal data
 
 ## Third-Party Services
 
@@ -141,6 +150,8 @@ Continued use of the bot after changes constitutes acceptance of the updated pol
 - View their subscription status via bot commands
 - Revoke Patreon access through Patreon settings
 - Request deletion of Patreon-linked data
+- View which servers have premium activated
+- Manage their guild activations within tier limits
 
 ## Data Deletion Requests
 
