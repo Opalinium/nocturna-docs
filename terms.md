@@ -16,20 +16,26 @@ Nocturna is a Discord bot that provides:
 
 ### Free Features:
 - **Moderation Tools:** Kick, ban, mute, warn, and infraction tracking with case management
-- **Server Management:** Limited role menus, autoroles, custom tags, and permission configurations
+- **Server Management:** Limited role menus (1 per guild), autoroles, custom tags, and permission configurations
 - **Event Logging:** Comprehensive server event tracking and audit logs
-- **Content Filtering:** Automated content moderation with customizable filter rules and strike systems (limited)
-- **Utility Features:** Reminders, server information, user lookups, and custom commands
+- **Content Filtering:** Automated content moderation with customizable filter rules and strike systems (1 filter per guild)
+- **Utility Features:** Basic reminders (5 active reminders), server information, user lookups, and custom commands
 - **Anti-Raid Protection:** Automated detection and mitigation of server raids
 - **Slowmode Management:** Dynamic and static slowmode configurations
 - **Voice Activity Tracking:** Logging of voice channel join/leave events and session durations
+- **Message Logs:** 6-month (180-day) message log retention for audit trails
 
 ### Premium Features (Patreon Supporters):
-- **Unlimited Role Menus:** No limit on role menus (vs 1 for free)
-- **Unlimited Content Filters:** No limit on custom filters (vs 3 for free)
-- **Enhanced Role Menus:** Up to 25 roles per menu (vs 5 for free)
-- **Advanced Filters:** Up to 10 triggers per filter (vs 3 for free)
-- **Custom Server Branding:** Personalized bot display name and avatar per server
+- **Enhanced Reminders:** 50 active reminders with repeating support (free tier: 5 reminders)
+- **Unlimited Role Menus:** No limit on role menus per guild (free tier: 1 role menu)
+- **Unlimited Message Filters:** No limit on custom filters per guild (free tier: 1 filter)
+- **Enhanced Role Menus:** Up to 25 roles per role menu (free tier: 5 roles)
+- **Advanced Filters:** Up to 10 triggers per filter (free tier: 3 triggers)
+- **Extended Message Retention:** 2-year (730-day) message log retention for audit trails (free tier: 6 months)
+- **Mass Nickname Operations:** Bulk rename, add prefix/suffix, or reset nicknames for multiple members
+- **Custom Bot Branding:** Personalized display name and profile picture for your server
+- **Reminder History:** View and track all your completed reminders
+- **Priority Support:** Faster response times for issues and feature requests
 
 ## 3. Eligibility
 
@@ -97,6 +103,7 @@ You agree to use the Bot only for lawful purposes and in accordance with these T
 - Attempt to bypass rate limits or other protective measures
 - Share premium features with non-subscribers (account sharing)
 - Use premium features in violation of Patreon's Terms of Service
+- Use mass nickname operations for harassment, impersonation, or malicious purposes
 
 ### 5.2 Server Administrator Responsibilities
 
@@ -109,6 +116,7 @@ Server Administrators are responsible for:
 - Maintaining appropriate backup of critical server configurations
 - Managing premium feature access for their server
 - Ensuring custom branding complies with Discord's Community Guidelines
+- Using mass nickname operations responsibly and with appropriate member consent
 
 ### 5.3 Premium Subscriber Responsibilities
 
@@ -173,6 +181,18 @@ When using custom branding features (premium), you agree to:
 - Not use branding that violates intellectual property rights
 
 We reserve the right to disable custom branding that violates these guidelines.
+
+### 7.4 Mass Nickname Operations
+
+Mass nickname operations (premium feature) allow bulk modification of member nicknames. By using this feature, you acknowledge and agree that:
+
+- You are solely responsible for all nickname changes made using this feature
+- You will use mass nickname operations in compliance with Discord's Terms of Service and Community Guidelines
+- You will not use this feature to harass, defame, impersonate, or cause harm to server members
+- You will not use this feature for malicious, abusive, or fraudulent purposes
+- You will obtain necessary permissions and consent before modifying member nicknames
+
+Server Administrators assume full liability for all nickname modifications performed using this feature.
 
 ## 8. Data and Privacy
 
@@ -296,6 +316,30 @@ Patreon and related marks are trademarks of Patreon, Inc. Use of these marks doe
 
 ## 13. Disclaimers and Limitations of Liability
 
+### 13.0 General Disclaimer of Liability
+
+**WE EXPRESSLY DISCLAIM ANY AND ALL LIABILITY** for damages, claims, disputes, losses, or liabilities arising from your use or misuse of the Bot and its features, including but not limited to:
+
+- Automated moderation actions, content filtering, or strike system enforcement
+- Mass nickname operations, bulk user management, or member modifications
+- Custom branding, server configurations, or personalization features
+- Message logging, data retention, or audit trail functionality
+- Reminder systems, scheduled tasks, or notification features
+- Role menu operations, autorole assignments, or permission management
+- Anti-raid protection, security measures, or automated safeguards
+- Any premium or free tier features provided by the Bot
+
+**YOU ACKNOWLEDGE AND AGREE** that:
+- You are solely responsible for how you configure and use the Bot
+- We are not responsible for monitoring or preventing misuse of Bot features
+- Server Administrators and users assume full liability for all actions performed using the Bot
+- We do not warrant that the Bot will meet your requirements or operate error-free
+- You use the Bot at your own risk and discretion
+
+This includes, without limitation, claims for: harassment, defamation, privacy violations, impersonation, data loss, unauthorized access, wrongful moderation actions, tortious conduct, breach of contract, negligence, or any other legal theory of liability.
+
+**YOU AGREE TO INDEMNIFY AND HOLD US HARMLESS** from any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising from your use of the Bot, regardless of the feature or functionality involved.
+
 ### 13.1 No Warranty
 
 THE BOT IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
@@ -320,6 +364,7 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR:
 - Loss of premium features due to subscription issues or service changes
 - Issues arising from Patreon service interruptions or API changes
 - Damages from custom branding features or configurations
+- Damages arising from use or misuse of mass nickname operations
 - Any damages exceeding $100 USD (or equivalent)
 
 ### 13.3 Third-Party Services
@@ -346,6 +391,7 @@ You agree to indemnify, defend, and hold harmless the Bot operator, its affiliat
 - Your server's use of automated moderation features
 - Incorrect configuration of Bot features
 - Use of premium features or custom branding
+- Use or misuse of mass nickname operations
 - Disputes with Patreon regarding billing or subscriptions
 
 ## 15. Dispute Resolution
