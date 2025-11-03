@@ -2,7 +2,7 @@
 
 **Effective Date:** October 1, 2025
 
-**Last Updated:** October 19, 2025
+**Last Updated:** November 3, 2025
 
 By adding Nocturna ("the Bot") to your Discord server or using any of its features, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not use the Bot.
 
@@ -31,11 +31,13 @@ Nocturna is a Discord bot that provides:
 - **Unlimited Message Filters:** No limit on custom filters per guild (free tier: 1 filter)
 - **Enhanced Role Menus:** Up to 25 roles per role menu (free tier: 5 roles)
 - **Advanced Filters:** Up to 10 triggers per filter (free tier: 3 triggers)
+- **Custom Anti-Raid Patterns:** Fine-tune detection thresholds with custom patterns (free tier: preset levels only)
 - **Extended Message Retention:** 2-year (730-day) message log retention for audit trails (free tier: 6 months)
 - **Mass Nickname Operations:** Bulk rename, add prefix/suffix, or reset nicknames for multiple members
 - **Custom Bot Branding:** Personalized display name and profile picture for your server
 - **Reminder History:** View and track all your completed reminders
 - **Priority Support:** Faster response times for issues and feature requests
+- **Multiple Server Support:** Activate premium in multiple servers based on your tier (Basic: 2 servers, Plus: 5 servers, Pro: 10 servers)
 
 ## 3. Eligibility
 
@@ -52,35 +54,59 @@ Premium features are provided to active Patreon supporters who have:
 - Linked their Discord account to their Patreon account
 - Authorized the Bot to verify their Patreon status
 
-### 4.2 Subscription Management
+### 4.2 Premium Tiers
+
+We offer three premium tiers with different server limits:
+
+- **Nocturna Basic ($3/month):** Activate premium in up to 2 servers
+- **Nocturna Plus ($6/month):** Activate premium in up to 5 servers
+- **Nocturna Pro ($10/month):** Activate premium in up to 10 servers
+
+All tiers include the same premium features. The tier determines only the number of servers where you can activate premium.
+
+### 4.3 Subscription Management
 
 - Premium status is verified through Patreon's OAuth2 API
 - Subscription status is periodically synchronized
 - Features are enabled/disabled automatically based on subscription status
+- Tier changes are automatically detected and enforced
 - Premium features apply per-user or per-server depending on the feature
 
-### 4.3 Server-Level Premium
+### 4.4 Server-Level Premium
 
-- Server owners can apply their premium benefits to their server
+- Any premium subscriber can activate their premium benefits in a server
+- Server ownership is not required to activate premium
+- Only the premium activator or server administrators can deactivate premium
+- Server owners receive a notification when someone activates premium in their server
 - Only one premium subscription is needed per server
 - The subscriber must maintain their Patreon subscription for continued access
 - Server-level premium includes custom branding and increased limits
 
-### 4.4 Subscription Cancellation
+### 4.5 Guild Limit Enforcement
+
+- Each tier has a maximum number of servers where premium can be active
+- If you downgrade to a lower tier, excess guild activations are automatically deactivated
+- The oldest activations are deactivated first when limits are exceeded
+- You will receive a notification when guilds are automatically deactivated
+- You can manually choose which servers to deactivate before automatic enforcement occurs
+
+### 4.6 Subscription Cancellation
 
 - You can cancel your Patreon subscription at any time
 - Premium features will remain active until your current billing period ends
 - After cancellation, features revert to free tier limits
 - No refunds are provided (subscription is through Patreon)
+- Custom anti-raid patterns are archived for 3 months after premium expires and can be restored if you resubscribe
 
-### 4.5 No Guarantee of Availability
+### 4.7 No Guarantee of Availability
 
 We reserve the right to:
 - Modify or discontinue premium features at any time
 - Change premium tier benefits with reasonable notice
 - Adjust pricing through Patreon (new prices apply to new/renewing subscribers)
+- Modify guild limits per tier with advance notice to existing subscribers
 
-### 4.6 Billing and Refunds
+### 4.8 Billing and Refunds
 
 - All billing is handled through Patreon
 - Refund requests must be directed to Patreon
@@ -104,6 +130,8 @@ You agree to use the Bot only for lawful purposes and in accordance with these T
 - Share premium features with non-subscribers (account sharing)
 - Use premium features in violation of Patreon's Terms of Service
 - Use mass nickname operations for harassment, impersonation, or malicious purposes
+- Activate premium in more servers than allowed by your tier
+- Circumvent guild limit enforcement mechanisms
 
 ### 5.2 Server Administrator Responsibilities
 
@@ -125,6 +153,9 @@ Premium subscribers agree to:
 - Not share account credentials or premium benefits with non-subscribers
 - Use custom branding features responsibly and in compliance with Discord's guidelines
 - Not abuse premium features or exploit increased limits
+- Respect guild activation limits based on their subscription tier
+- Accept automatic deactivation of guilds when downgrading tiers or exceeding limits
+- Use custom anti-raid patterns responsibly and in accordance with these Terms
 
 ## 6. Bot Permissions and Access
 
@@ -286,6 +317,14 @@ We may revoke premium features if:
 - You violate these Terms while using premium features
 - You abuse premium features or exploit increased limits
 - Custom branding violates Discord's guidelines
+- You exceed guild activation limits for your tier
+- You attempt to circumvent tier enforcement mechanisms
+
+When premium is revoked:
+- Custom anti-raid patterns are automatically archived for 3 months
+- Anti-raid protection reverts to preset levels (Low, Medium, High)
+- Message log retention reverts to 6-month standard
+- Excess guild activations are automatically deactivated
 
 ### 11.4 Effect of Termination
 
@@ -443,6 +482,16 @@ When the Bot joins a new server, basic information about the server (name, ID, o
 
 Custom branding and premium configurations are automatically restored when the Bot reconnects or restarts, subject to active subscription status.
 
+Custom anti-raid patterns are archived for 3 months after premium expires and will be automatically restored if you resubscribe within that timeframe.
+
+### 19.4 Automated Tier Enforcement
+
+The Bot automatically enforces guild activation limits when you change subscription tiers:
+- Oldest activations are deactivated first when limits are exceeded
+- You receive notifications when guilds are automatically deactivated
+- You can manually manage activations before automatic enforcement occurs
+- Tier changes are detected and applied within 24 hours of Patreon synchronization
+
 ## 20. Updates to Terms
 
 We may update these Terms from time to time. When we make material changes:
@@ -465,6 +514,9 @@ By adding Nocturna to your Discord server or using any of its features, you ackn
 - You understand that data is not automatically deleted when the Bot is removed
 - You understand that premium features require an active Patreon subscription
 - You understand that we may modify or discontinue features at any time
+- You understand that premium tiers have different guild activation limits
+- You accept that guild activations may be automatically deactivated when exceeding tier limits
+- You understand that custom anti-raid patterns require premium and are archived for 3 months after expiration
 
 ---
 
