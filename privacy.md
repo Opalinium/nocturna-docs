@@ -43,11 +43,17 @@ We use this information only to:
 **How long we keep data:**
 - Moderation logs: Until you delete them
 - Voice activity: 7 days
-- Message content: Deleted when message is deleted from Discord, or automatically after 180 days
+- Message content: Deleted when message is deleted from Discord, or automatically after 6 months/180 days (2 years/730 days for premium servers)
 - Invite tracking: 30 days
 - Your settings/tags: Until you delete them
 - Premium subscription data: Duration of subscription plus 90 days after expiration
 - Custom branding settings: Duration of premium subscription
+
+**Premium message retention:**
+- Premium servers receive extended message log retention of 2 years (730 days)
+- Message logs are automatically deleted after 2 years for premium servers
+- If premium subscription ends, message logs revert to standard 6-month (180-day) retention
+- Existing message logs beyond 180 days are deleted within 30 days of subscription ending
 
 **Important:** If you remove the bot from your server, your data stays in our database. To delete it, contact us with your server ID and we'll remove it within 30 days.
 
