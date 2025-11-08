@@ -2,7 +2,7 @@
 
 **Effective Date:** October 1, 2025
 
-**Last Updated:** November 3, 2025
+**Last Updated:** November 7, 2025
 
 By adding Nocturna ("the Bot") to your Discord server or using any of its features, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not use the Bot.
 
@@ -16,24 +16,27 @@ Nocturna is a Discord bot that provides:
 
 ### Free Features:
 - **Moderation Tools:** Kick, ban, mute, warn, and infraction tracking with case management
-- **Server Management:** Limited role menus (1 per guild), autoroles, custom tags, and permission configurations
+- **Server Management:** Limited role menus (2 per guild), autoroles, custom tags, and permission configurations
 - **Event Logging:** Comprehensive server event tracking and audit logs
-- **Content Filtering:** Automated content moderation with customizable filter rules and strike systems (1 filter per guild)
-- **Utility Features:** Basic reminders (5 active reminders), server information, user lookups, and custom commands
-- **Anti-Raid Protection:** Automated detection and mitigation of server raids
+- **Content Filtering:** Automated content moderation with customizable filter rules and strike systems (5 filters per guild)
+- **Utility Features:** Basic reminders (10 active reminders, 3 can repeat), server information, user lookups, and custom commands
+- **Anti-Raid Protection:** Automated detection and mitigation of server raids with preset protection levels
 - **Slowmode Management:** Dynamic and static slowmode configurations
 - **Voice Activity Tracking:** Logging of voice channel join/leave events and session durations
-- **Message Logs:** 6-month (180-day) message log retention for audit trails
+- **Message Logs:** 1-year (365-day) message log retention for audit trails
+- **Ticket System:** Text transcript exports to staff-only log thread
 
 ### Premium Features (Patreon Supporters):
-- **Enhanced Reminders:** 50 active reminders with repeating support (free tier: 5 reminders)
-- **Unlimited Role Menus:** No limit on role menus per guild (free tier: 1 role menu)
-- **Unlimited Message Filters:** No limit on custom filters per guild (free tier: 1 filter)
-- **Enhanced Role Menus:** Up to 25 roles per role menu (free tier: 5 roles)
-- **Advanced Filters:** Up to 10 triggers per filter (free tier: 3 triggers)
+- **Enhanced Reminders:** 50 active reminders with unlimited repeating support (free tier: 10 reminders, 3 can repeat)
+- **Unlimited Role Menus:** No limit on role menus per guild (free tier: 2 role menus)
+- **Unlimited Message Filters:** No limit on custom filters per guild (free tier: 5 filters)
+- **Enhanced Role Menus:** Up to 25 roles per role menu (free tier: 10 roles)
+- **Advanced Filters:** Up to 10 triggers per filter (free tier: 5 triggers)
 - **Custom Anti-Raid Patterns:** Fine-tune detection thresholds with custom patterns (free tier: preset levels only)
-- **Extended Message Retention:** 2-year (730-day) message log retention for audit trails (free tier: 6 months)
-- **Mass Nickname Operations:** Bulk rename, add prefix/suffix, or reset nicknames for multiple members
+- **Extended Message Retention:** 2-year (730-day) message log retention for audit trails (free tier: 1 year)
+- **Automatic Nickname Patterns:** Apply prefix/suffix patterns to members on join with role-based exclusions, bulk operations, or reset nicknames
+- **HTML Ticket Transcripts:** Automatic exports with rich formatting (free tier: text exports)
+- **Custom Ticket Panel:** Personalize ticket panel title and description
 - **Custom Bot Branding:** Personalized display name and profile picture for your server
 - **Reminder History:** View and track all your completed reminders
 - **Priority Support:** Faster response times for issues and feature requests
@@ -129,7 +132,7 @@ You agree to use the Bot only for lawful purposes and in accordance with these T
 - Attempt to bypass rate limits or other protective measures
 - Share premium features with non-subscribers (account sharing)
 - Use premium features in violation of Patreon's Terms of Service
-- Use mass nickname operations for harassment, impersonation, or malicious purposes
+- Use automatic nickname patterns for harassment, impersonation, or malicious purposes
 - Activate premium in more servers than allowed by your tier
 - Circumvent guild limit enforcement mechanisms
 
@@ -144,7 +147,7 @@ Server Administrators are responsible for:
 - Maintaining appropriate backup of critical server configurations
 - Managing premium feature access for their server
 - Ensuring custom branding complies with Discord's Community Guidelines
-- Using mass nickname operations responsibly and with appropriate member consent
+- Configuring automatic nickname patterns with appropriate role exclusions
 
 ### 5.3 Premium Subscriber Responsibilities
 
@@ -213,15 +216,15 @@ When using custom branding features (premium), you agree to:
 
 We reserve the right to disable custom branding that violates these guidelines.
 
-### 7.4 Mass Nickname Operations
+### 7.4 Automatic Nickname Patterns
 
-Mass nickname operations (premium feature) allow bulk modification of member nicknames. By using this feature, you acknowledge and agree that:
+Automatic nickname patterns (premium feature) allow automatic application of prefix or suffix patterns to member nicknames when they join your server, as well as bulk operations to apply patterns to existing members or reset nicknames. By using this feature, you acknowledge and agree that:
 
 - You are solely responsible for all nickname changes made using this feature
-- You will use mass nickname operations in compliance with Discord's Terms of Service and Community Guidelines
+- You will use automatic nickname patterns in compliance with Discord's Terms of Service and Community Guidelines
 - You will not use this feature to harass, defame, impersonate, or cause harm to server members
 - You will not use this feature for malicious, abusive, or fraudulent purposes
-- You will obtain necessary permissions and consent before modifying member nicknames
+- You will configure appropriate role exclusions to respect member preferences and server hierarchy
 
 Server Administrators assume full liability for all nickname modifications performed using this feature.
 
@@ -323,8 +326,9 @@ We may revoke premium features if:
 When premium is revoked:
 - Custom anti-raid patterns are automatically archived for 3 months
 - Anti-raid protection reverts to preset levels (Low, Medium, High)
-- Message log retention reverts to 6-month standard
+- Message log retention reverts to 1-year standard (365 days)
 - Excess guild activations are automatically deactivated
+- Ticket exports revert to text-only format (HTML transcripts disabled)
 
 ### 11.4 Effect of Termination
 
@@ -360,7 +364,7 @@ Patreon and related marks are trademarks of Patreon, Inc. Use of these marks doe
 **WE EXPRESSLY DISCLAIM ANY AND ALL LIABILITY** for damages, claims, disputes, losses, or liabilities arising from your use or misuse of the Bot and its features, including but not limited to:
 
 - Automated moderation actions, content filtering, or strike system enforcement
-- Mass nickname operations, bulk user management, or member modifications
+- Automatic nickname patterns, member join processing, or nickname modifications
 - Custom branding, server configurations, or personalization features
 - Message logging, data retention, or audit trail functionality
 - Reminder systems, scheduled tasks, or notification features
@@ -403,7 +407,7 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR:
 - Loss of premium features due to subscription issues or service changes
 - Issues arising from Patreon service interruptions or API changes
 - Damages from custom branding features or configurations
-- Damages arising from use or misuse of mass nickname operations
+- Damages arising from use or misuse of automatic nickname patterns
 - Any damages exceeding $100 USD (or equivalent)
 
 ### 13.3 Third-Party Services
@@ -430,7 +434,7 @@ You agree to indemnify, defend, and hold harmless the Bot operator, its affiliat
 - Your server's use of automated moderation features
 - Incorrect configuration of Bot features
 - Use of premium features or custom branding
-- Use or misuse of mass nickname operations
+- Use or misuse of automatic nickname patterns
 - Disputes with Patreon regarding billing or subscriptions
 
 ## 15. Dispute Resolution
