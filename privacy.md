@@ -20,7 +20,7 @@ This Privacy Policy explains what information Nocturna collects and how we use i
 - Custom tags, commands, and server settings
 - Reminders and scheduled content
 - Custom branding preferences (premium feature)
-- Automatic nickname patterns and exclusions (premium feature)
+- Automatic nickname patterns and role exclusions (premium feature)
 - Ticket system configurations and support roles
 
 **Premium subscription information:**
@@ -46,19 +46,14 @@ We use this information only to:
 **How long we keep data:**
 - Moderation logs: Until you delete them
 - Voice activity: 7 days
-- Message content: Deleted when message is deleted from Discord, or automatically after 1 year/365 days (2 years/730 days for premium servers)
+- Message content: Deleted when message is deleted from Discord, or automatically after 1 year (365 days for free servers, 730 days for premium servers)
+- Media thumbnails: 30 days for free servers, 730 days for premium servers
 - Invite tracking: 30 days
 - Your settings/tags: Until you delete them
 - Premium subscription data: Duration of subscription plus 90 days after expiration
 - Custom branding settings: Duration of premium subscription
-- Archived anti-raid custom patterns: 3 months after premium expires (automatically deleted after 3 months)
-- Ticket transcripts: Retained in export thread until manually deleted by staff
-
-**Premium message retention:**
-- Premium servers receive extended message log retention of 2 years (730 days)
-- Message logs are automatically deleted after 2 years for premium servers
-- If premium subscription ends, message logs revert to standard 1-year (365-day) retention
-- Existing message logs beyond 365 days are deleted within 30 days of subscription ending
+- Archived anti-raid custom patterns: 3 months after premium expires
+- Ticket transcripts: Retained within the ticket thread; staff may delete archived tickets if needed
 
 **Important:** If you remove the bot from your server, your data stays in our database. To delete it, contact us with your server ID and we'll remove it within 30 days.
 
