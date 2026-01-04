@@ -24,7 +24,7 @@ Nocturna is a Discord bot that provides:
 - **Slowmode Management:** Dynamic and static slowmode configurations
 - **Voice Activity Tracking:** Logging of voice channel join/leave events and session durations
 - **Message Logs:** 1-year (365-day) message log retention for audit trails
-- **Ticket System:** Text transcript exports to staff-only log thread
+- **Ticket System:** Thread-based ticket system; tickets are archived on close and archived threads serve as staff logs
 
 ### Premium Features (Patreon Supporters):
 - **Enhanced Reminders:** 50 active reminders with unlimited repeating support (free tier: 10 reminders, 3 can repeat)
@@ -34,8 +34,9 @@ Nocturna is a Discord bot that provides:
 - **Advanced Filters:** Up to 10 triggers per filter (free tier: 5 triggers)
 - **Custom Anti-Raid Patterns:** Fine-tune detection thresholds with custom patterns (free tier: preset levels only)
 - **Extended Message Retention:** 2-year (730-day) message log retention for audit trails (free tier: 1 year)
-- **Automatic Nickname Patterns:** Apply prefix/suffix patterns to members on join with role-based exclusions, bulk operations, or reset nicknames
-- **HTML Ticket Transcripts:** Automatic exports with rich formatting (free tier: text exports)
+- **Extended Media Retention:** 2-year (730-day) media thumbnail retention (free tier: 30 days)
+- **Automatic Nickname Patterns:** Apply prefix/suffix patterns to members on join with role-based exclusions, bulk operations, or reset nicknames (premium feature)
+- **Ticket Enhancements:** Enhanced ticket panel customization and presentation
 - **Custom Ticket Panel:** Personalize ticket panel title and description
 - **Custom Bot Branding:** Personalized display name and profile picture for your server
 - **Reminder History:** View and track all your completed reminders
@@ -132,7 +133,7 @@ You agree to use the Bot only for lawful purposes and in accordance with these T
 - Attempt to bypass rate limits or other protective measures
 - Share premium features with non-subscribers (account sharing)
 - Use premium features in violation of Patreon's Terms of Service
-- Use automatic nickname patterns for harassment, impersonation, or malicious purposes
+- Use automatic nickname patterns for harassment, impersonation, or malicious purposes (premium feature)
 - Activate premium in more servers than allowed by your tier
 - Circumvent guild limit enforcement mechanisms
 
@@ -147,7 +148,7 @@ Server Administrators are responsible for:
 - Maintaining appropriate backup of critical server configurations
 - Managing premium feature access for their server
 - Ensuring custom branding complies with Discord's Community Guidelines
-- Configuring automatic nickname patterns with appropriate role exclusions
+- Configuring automatic nickname patterns with appropriate role exclusions (if using premium feature)
 
 ### 5.3 Premium Subscriber Responsibilities
 
@@ -328,7 +329,7 @@ When premium is revoked:
 - Anti-raid protection reverts to preset levels (Low, Medium, High)
 - Message log retention reverts to 1-year standard (365 days)
 - Excess guild activations are automatically deactivated
-- Ticket exports revert to text-only format (HTML transcripts disabled)
+ - Ticket export behavior: The system uses archived threads for logs. Premium features related to ticket presentation will be disabled when premium is revoked.
 
 ### 11.4 Effect of Termination
 
@@ -364,7 +365,7 @@ Patreon and related marks are trademarks of Patreon, Inc. Use of these marks doe
 **WE EXPRESSLY DISCLAIM ANY AND ALL LIABILITY** for damages, claims, disputes, losses, or liabilities arising from your use or misuse of the Bot and its features, including but not limited to:
 
 - Automated moderation actions, content filtering, or strike system enforcement
-- Automatic nickname patterns, member join processing, or nickname modifications
+- Automatic nickname patterns, member join processing, or nickname modifications (premium feature)
 - Custom branding, server configurations, or personalization features
 - Message logging, data retention, or audit trail functionality
 - Reminder systems, scheduled tasks, or notification features
@@ -434,7 +435,7 @@ You agree to indemnify, defend, and hold harmless the Bot operator, its affiliat
 - Your server's use of automated moderation features
 - Incorrect configuration of Bot features
 - Use of premium features or custom branding
-- Use or misuse of automatic nickname patterns
+- Use or misuse of automatic nickname patterns (premium feature)
 - Disputes with Patreon regarding billing or subscriptions
 
 ## 15. Dispute Resolution
@@ -521,6 +522,7 @@ By adding Nocturna to your Discord server or using any of its features, you ackn
 - You understand that premium tiers have different guild activation limits
 - You accept that guild activations may be automatically deactivated when exceeding tier limits
 - You understand that custom anti-raid patterns require premium and are archived for 3 months after expiration
+- You understand that vote-based premium grants 4 hours of access per vote
 
 ---
 
