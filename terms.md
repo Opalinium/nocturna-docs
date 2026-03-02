@@ -2,7 +2,7 @@
 
 **Effective Date:** October 1, 2025
 
-**Last Updated:** November 7, 2025
+**Last Updated:** March 1, 2026
 
 By adding Nocturna ("the Bot") to your Discord server or using any of its features, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not use the Bot.
 
@@ -21,10 +21,14 @@ Nocturna is a Discord bot that provides:
 - **Content Filtering:** Automated content moderation with customizable filter rules and strike systems (5 filters per guild)
 - **Utility Features:** Basic reminders (10 active reminders, 3 can repeat), server information, user lookups, and custom commands
 - **Anti-Raid Protection:** Automated detection and mitigation of server raids with preset protection levels
+- **Anti-Spam Protection:** Automated detection and action against spam behavior with configurable thresholds and exemptions
 - **Slowmode Management:** Dynamic and static slowmode configurations
 - **Voice Activity Tracking:** Logging of voice channel join/leave events and session durations
 - **Message Logs:** 1-year (365-day) message log retention for audit trails
 - **Ticket System:** Thread-based ticket system; tickets are archived on close and archived threads serve as staff logs
+- **Levelling System:** XP-based server levelling with rank cards, leaderboards, and configurable rewards
+- **Starboard:** Highlight popular messages to a dedicated channel based on configurable reaction thresholds
+- **Game Activity Metrics:** Opt-in server-level tracking of member game/application activity for analytics and leaderboards
 
 ### Premium Features (Patreon Supporters):
 - **Enhanced Reminders:** 50 active reminders with unlimited repeating support (free tier: 10 reminders, 3 can repeat)
@@ -36,6 +40,7 @@ Nocturna is a Discord bot that provides:
 - **Extended Message Retention:** 2-year (730-day) message log retention for audit trails (free tier: 1 year)
 - **Extended Media Retention:** 2-year (730-day) media thumbnail retention (free tier: 30 days)
 - **Automatic Nickname Patterns:** Apply prefix/suffix patterns to members on join with role-based exclusions, bulk operations, or reset nicknames (premium feature)
+- **Welcome & Goodbye Messages:** Configurable join and leave messages with embed support and custom content (premium feature)
 - **Ticket Enhancements:** Enhanced ticket panel customization and presentation
 - **Custom Ticket Panel:** Personalize ticket panel title and description
 - **Custom Bot Branding:** Personalized display name and profile picture for your server
@@ -117,6 +122,17 @@ We reserve the right to:
 - We do not process payments or refunds directly
 - Subscription disputes should be resolved through Patreon's support
 
+### 4.9 Vote-Based Temporary Premium
+
+Users may obtain temporary premium access by voting for the Bot on Top.gg:
+
+- Voting grants temporary premium access for the duration specified at the time of voting (currently 8 hours per vote)
+- Vote-based premium is subject to change or discontinuation at any time without notice
+- Vote-based premium is personal to the voting user and cannot be transferred or shared
+- Repeated or fraudulent voting to abuse vote-based premium constitutes a violation of these Terms
+- Top.gg may impose its own restrictions on bot listing, voting eligibility, or vote frequency; we are not responsible for Top.gg service availability or policy changes
+- Vote-based premium does not constitute a paid subscription and carries no guarantee of duration, availability, or continuity
+
 ## 5. User Responsibilities
 
 ### 5.1 Acceptable Use
@@ -136,6 +152,8 @@ You agree to use the Bot only for lawful purposes and in accordance with these T
 - Use automatic nickname patterns for harassment, impersonation, or malicious purposes (premium feature)
 - Activate premium in more servers than allowed by your tier
 - Circumvent guild limit enforcement mechanisms
+- Abuse the vote-based premium system through fraudulent, scripted, or coordinated voting
+- Use the Bot's game metrics, levelling, or starboard features to collect, scrape, or redistribute member data for purposes unrelated to server management
 
 ### 5.2 Server Administrator Responsibilities
 
@@ -311,8 +329,10 @@ We reserve the right to:
 - Remove the Bot from any server that violates these Terms
 - Revoke access for users or servers that abuse Bot features
 - Terminate service without notice for severe violations
-- Ban users or servers from using the Bot
+- Ban or blacklist users or servers from using the Bot, including via an automated in-bot blacklist which will silently deny all interactions from blacklisted users or servers
 - Suspend or revoke premium features for Terms violations
+
+**Blacklisting:** We reserve the sole and absolute right to add any user ID or server ID to the Bot's blacklist at any time, for any reason, including but not limited to: Terms violations, abuse, fraud, harassment of staff, or conduct incompatible with the Bot's continued operation. Blacklisted users or servers are not entitled to an explanation, appeal, or reinstatement. We are not liable for any loss of access, data, or service resulting from a blacklisting decision.
 
 ### 11.3 Premium Subscription Termination
 
@@ -413,7 +433,7 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR:
 
 ### 13.3 Third-Party Services
 
-The Bot operates through Discord's platform and integrates with Patreon. We are not responsible for:
+The Bot operates through Discord's platform and integrates with Patreon and Top.gg. We are not responsible for:
 
 - Discord service outages or interruptions
 - Changes to Discord's API or Terms of Service
@@ -423,6 +443,10 @@ The Bot operates through Discord's platform and integrates with Patreon. We are 
 - Changes to Patreon's API or policies
 - Billing issues handled through Patreon
 - Patreon's data handling or privacy practices
+- Top.gg service availability, vote counting accuracy, or API changes
+- Changes to Top.gg's bot listing policies or voting eligibility rules
+- Loss of vote-based premium access due to Top.gg downtime or policy changes
+- Top.gg's data handling or privacy practices
 
 ## 14. Indemnification
 
@@ -436,7 +460,10 @@ You agree to indemnify, defend, and hold harmless the Bot operator, its affiliat
 - Incorrect configuration of Bot features
 - Use of premium features or custom branding
 - Use or misuse of automatic nickname patterns (premium feature)
+- Use or misuse of welcome/goodbye message features (premium feature)
+- Use or misuse of game metrics, levelling, or starboard features
 - Disputes with Patreon regarding billing or subscriptions
+- Disputes with Top.gg regarding voting or bot listings
 
 ## 15. Dispute Resolution
 
@@ -466,6 +493,7 @@ For questions, concerns, or notices regarding these Terms:
 
 - **Support Server:** https://discord.gg/VjbkYtDxZf
 - **Patreon:** https://patreon.com/NocturnaBot
+- **Top.gg:** https://top.gg/bot/1363693952347406649
 
 ## 19. Special Provisions
 
@@ -522,7 +550,10 @@ By adding Nocturna to your Discord server or using any of its features, you ackn
 - You understand that premium tiers have different guild activation limits
 - You accept that guild activations may be automatically deactivated when exceeding tier limits
 - You understand that custom anti-raid patterns require premium and are archived for 3 months after expiration
-- You understand that vote-based premium grants 4 hours of access per vote
+- You understand that vote-based premium grants temporary access per vote as specified at the time of voting, and is subject to change or discontinuation at any time
+- You understand that we reserve the right to blacklist any user or server from the Bot at any time without notice, explanation, or appeal
+- You understand that game activity data, levelling/XP records, and starboard records may be collected and stored as described in the Privacy Policy
+- You understand that welcome and goodbye messages are a premium feature
 
 ---
 
@@ -532,6 +563,6 @@ By adding Nocturna to your Discord server or using any of its features, you ackn
 
 ---
 
-© 2025 Nocturna. All Rights Reserved.
+© 2026 Nocturna. All Rights Reserved.
 
 This Terms of Service document is specific to the Nocturna Discord bot. Unauthorized copying or use of this document is prohibited.
