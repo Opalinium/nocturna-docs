@@ -10,11 +10,11 @@ This Privacy Policy explains what information Nocturna collects and how we use i
 **To make the bot work, we collect:**
 - Discord user IDs, usernames, and server information
 - Message IDs and timestamps for moderation logs
-- Message content for logging and moderation
+- Message content for logging and moderation, subject to per-user privacy controls via `/privacy`
 - Voice channel activity (join/leave times)
 - Invite usage and role assignments
 - Commands you use and buttons you click
-- Game/application activity presence data (game names, session durations, session counts) when the game metrics feature is enabled in your server
+- Game/application activity presence data (game names, session durations, session counts, and related user IDs) when the game metrics feature is enabled in your server
 - Experience points (XP), level progression, and rank card customization data when the levelling feature is enabled in your server
 - Starboard message records (starred message IDs, channel IDs, reaction counts) when starboard is configured in your server
 - Vote history, vote streak data, and vote reminder preferences when you use the `/vote` command or vote on Top.gg
@@ -50,6 +50,7 @@ We use this information only to:
 - Verify Patreon supporter status
 - Apply custom branding (premium feature)
 - Track game/application activity for server-level metrics (opt-in per server)
+- Support per-user privacy controls, including message and game presence tracking opt-out with anonymized aggregation where applicable
 - Maintain levelling and XP progression records
 - Record and display starred messages on the starboard
 - Deliver vote-based temporary premium access and vote reminders (Top.gg integration)
@@ -61,7 +62,7 @@ We use this information only to:
 **How long we keep data:**
 - Moderation logs: Until you delete them
 - Voice activity: 7 days
-- Message content: Deleted when message is deleted from Discord, or automatically after 1 year (365 days for free servers, 730 days for premium servers)
+- Message content: Deleted when message is deleted from Discord, or automatically after 1 year (365 days for free servers, 730 days for premium servers). Message tracking opt-out settings are respected
 - Media thumbnails: 30 days for free servers, 730 days for premium servers
 - Invite tracking: 30 days
 - Your settings/tags: Until you delete them
@@ -69,7 +70,7 @@ We use this information only to:
 - Custom branding settings: Duration of premium subscription
 - Archived anti-raid custom patterns: 3 months after premium expires
 - Ticket transcripts: Retained within the ticket thread; staff may delete archived tickets if needed
-- Game/activity metrics: Stored indefinitely while the metrics feature is active; deleted on server request
+- Game/activity metrics: Stored indefinitely while the metrics feature is active; deleted on server request. Users who opt out of game presence tracking are represented as anonymous in aggregate metrics where applicable
 - Levelling/XP data: Stored indefinitely while the levelling feature is active; deleted on server or user request
 - Starboard records: Stored while starboard is configured; deleted on server request
 - Vote history and vote streak data: Stored indefinitely to maintain accurate streak records
@@ -134,7 +135,7 @@ You must be 13+ to use Discord and this bot (or 16+ in some jurisdictions). We d
 
 **Data storage:**
 - Data is stored on secure servers
-- Sensitive fields are encrypted at the application layer using AES-128-CBC symmetric encryption before being written to the database. This covers: message content, author names, moderation case reasons, mute reasons, reminder messages, and rank card bios
+- Sensitive fields are encrypted at the application layer before being written to the database, using Fernet (AES-128-CBC + HMAC-SHA256). Encrypted fields include message content, author names, moderation case reasons, mute reasons, reminder messages, rank card bios, and metrics game names. Certain operational identifiers (such as Discord user IDs, guild IDs, and channel IDs) are stored in plaintext where required for core bot functionality and relational integrity
 - Database access is restricted and monitored
 - We use industry-standard security practices
 
@@ -167,6 +168,7 @@ Continued use of the bot after changes constitutes acceptance of the updated pol
 - Request info about their stored data
 - Disconnect their Patreon account
 - Request deletion of their premium subscription data
+- Opt out of game/activity/message tracking via `/privacy`
 - Opt out of vote reminders via `/vote reminder`
 - Request deletion of their levelling/XP data
 - Request deletion of their vote history
