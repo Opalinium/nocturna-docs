@@ -252,13 +252,15 @@ Server Administrators assume full liability for all nickname modifications perfo
 
 The Bot collects and stores data as described in our [Privacy Policy](privacy.md). By using the Bot, you consent to data collection and processing as outlined in the Privacy Policy.
 
+Users can manage supported message and game presence tracking preferences through `/privacy`.
+
 ### 8.1 Data Retention
 
 Data is retained as specified in our Privacy Policy. **Data is NOT automatically deleted when the Bot is removed from a server.** Server Administrators may request deletion of their server's data by contacting us through our support channels.
 
 ### 8.2 Data Security
 
-While we implement reasonable security measures to protect data, including application-level encryption of sensitive fields (message content, moderation reasons, and other personal data) and secure access controls, we cannot guarantee absolute security. You acknowledge that you provide data at your own risk.
+While we implement reasonable security measures to protect data, including application-level encryption of sensitive fields and secure access controls, we cannot guarantee absolute security. Encrypted fields include message content, author names, moderation and mute reasons, reminder messages, rank card bios, and metrics game names. Certain operational identifiers (such as Discord user IDs, guild IDs, and channel IDs) are stored in plaintext where required for core bot functionality and relational integrity. You acknowledge that you provide data at your own risk.
 
 ### 8.3 Patreon Data
 
@@ -350,7 +352,7 @@ When premium is revoked:
 - Anti-raid protection reverts to preset levels (Low, Medium, High)
 - Message log retention reverts to 1-year standard (365 days)
 - Excess guild activations are automatically deactivated
- - Ticket export behavior: The system uses archived threads for logs. Premium features related to ticket presentation will be disabled when premium is revoked.
+- Ticket export behavior: The system uses archived threads for logs. Premium features related to ticket presentation will be disabled when premium is revoked.
 
 ### 11.4 Effect of Termination
 
