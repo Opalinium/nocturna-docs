@@ -1,7 +1,7 @@
-# Privacy Policy for Nocturna
+﻿# Privacy Policy for Nocturna
 
 **Effective Date:** October 1, 2025  
-**Last Updated:** March 1, 2026
+**Last Updated:** March 8, 2026
 
 This Privacy Policy explains what information Nocturna collects and how we use it.
 
@@ -133,7 +133,8 @@ You must be 13+ to use Discord and this bot (or 16+ in some jurisdictions). We d
 ## Data Location and Security
 
 **Data storage:**
-- Data is stored on secure servers with encryption at rest
+- Data is stored on secure servers
+- Sensitive fields are encrypted at the application layer using AES-128-CBC symmetric encryption before being written to the database. This covers: message content, author names, moderation case reasons, mute reasons, reminder messages, and rank card bios
 - Database access is restricted and monitored
 - We use industry-standard security practices
 
