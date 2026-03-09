@@ -2,7 +2,7 @@
 
 **Effective Date:** October 1, 2025
 
-**Last Updated:** March 1, 2026
+**Last Updated:** March 8, 2026
 
 By adding Nocturna ("the Bot") to your Discord server or using any of its features, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not use the Bot.
 
@@ -249,7 +249,7 @@ Server Administrators assume full liability for all nickname modifications perfo
 
 ## 8. Data and Privacy
 
-The Bot collects and stores data as described in our [Privacy Policy](PRIVACY_POLICY.md). By using the Bot, you consent to data collection and processing as outlined in the Privacy Policy.
+The Bot collects and stores data as described in our [Privacy Policy](privacy.md). By using the Bot, you consent to data collection and processing as outlined in the Privacy Policy.
 
 ### 8.1 Data Retention
 
@@ -257,7 +257,7 @@ Data is retained as specified in our Privacy Policy. **Data is NOT automatically
 
 ### 8.2 Data Security
 
-While we implement reasonable security measures to protect data, including database encryption and secure access controls, we cannot guarantee absolute security. You acknowledge that you provide data at your own risk.
+While we implement reasonable security measures to protect data, including application-level encryption of sensitive fields (message content, moderation reasons, and other personal data) and secure access controls, we cannot guarantee absolute security. You acknowledge that you provide data at your own risk.
 
 ### 8.3 Patreon Data
 
@@ -285,7 +285,7 @@ We strive to provide reliable service, but we do not guarantee:
 We reserve the right to:
 
 - Modify, suspend, or discontinue any feature of the Bot at any time
-- Update these Terms of Service with or without prior notice
+- Update these Terms of Service; material changes will be announced in our support server as described in Section 20
 - Change or remove commands, features, or functionality
 - Implement rate limits or usage restrictions to ensure fair usage
 - Modify premium feature offerings or benefits
@@ -469,15 +469,11 @@ You agree to indemnify, defend, and hold harmless the Bot operator, its affiliat
 
 ### 15.1 Informal Resolution
 
-Before pursuing formal legal action, you agree to contact us to attempt to resolve the dispute informally.
+All disputes, claims, or concerns arising from your use of the Bot should be raised informally through our support server (https://discord.gg/VjbkYtDxZf). You agree to contact us through our support server before pursuing any other course of action, and to make a good-faith effort to resolve the matter there.
 
 ### 15.2 Governing Law
 
 These Terms shall be governed by and construed in accordance with the laws of Canada, without regard to its conflict of law provisions.
-
-### 15.3 Arbitration
-
-Any disputes not resolved informally shall be resolved through binding arbitration in accordance with the rules of the Canadian jurisdiction where the service operator resides.
 
 ## 16. Severability
 
