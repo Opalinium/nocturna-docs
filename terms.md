@@ -46,7 +46,7 @@ Nocturna is a Discord bot that provides:
 - **Custom Bot Branding:** Personalized display name and profile picture for your server
 - **Reminder History:** View and track all your completed reminders
 - **Priority Support:** Faster response times for issues and feature requests
-- **Multiple Server Support:** Activate premium in multiple servers based on your tier (Basic: 2 servers, Plus: 5 servers, Pro: 10 servers)
+- **Multiple Server Support:** Activate premium in multiple servers based on your tier (Personal: user-facing features only — no server activations, Basic: 2 servers, Plus: 5 servers, Pro: 10 servers)
 
 ## 3. Eligibility
 
@@ -65,13 +65,14 @@ Premium features are provided to active Patreon supporters who have:
 
 ### 4.2 Premium Tiers
 
-We offer three premium tiers with different server limits:
+We offer four premium tiers:
 
-- **Nocturna Basic ($3/month):** Activate premium in up to 2 servers
-- **Nocturna Plus ($6/month):** Activate premium in up to 5 servers
-- **Nocturna Pro ($10/month):** Activate premium in up to 10 servers
+- **Nocturna Personal ($1/month):** User-facing premium features only; no server activations
+- **Nocturna Basic ($1.99/month):** Activate premium in up to 2 servers
+- **Nocturna Plus ($4.95/month):** Activate premium in up to 5 servers
+- **Nocturna Pro ($9.90/month):** Activate premium in up to 10 servers
 
-All tiers include the same premium features. The tier determines only the number of servers where you can activate premium.
+All tiers include the same premium features. For Basic tier and above, the tier determines the number of servers where you can activate server-level premium. The Personal tier provides user-facing premium features but does not include server activations.
 
 ### 4.3 Subscription Management
 
@@ -83,7 +84,7 @@ All tiers include the same premium features. The tier determines only the number
 
 ### 4.4 Server-Level Premium
 
-- Any premium subscriber can activate their premium benefits in a server
+- Subscribers on Basic tier or above can activate server-level premium in their Discord servers. Personal tier subscribers receive user-facing premium features only and cannot activate server-level premium
 - Server ownership is not required to activate premium
 - Only the premium activator or server administrators can deactivate premium
 - Server owners receive a notification when someone activates premium in their server
