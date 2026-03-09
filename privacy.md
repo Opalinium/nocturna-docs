@@ -34,7 +34,7 @@ This Privacy Policy explains what information Nocturna collects and how we use i
 
 **Premium subscription information:**
 - Patreon user IDs (if you're a patron)
-- Subscription status and tier level (Basic, Plus, or Pro)
+- Subscription status and tier level (Personal, Basic, Plus, or Pro)
 - Discord account linked to your Patreon account
 - Premium guild associations and activation history
 - Subscription start and expiration dates
@@ -89,7 +89,7 @@ We use this information only to:
 
 **What we receive from Patreon:**
 - Your Patreon user ID
-- Your supporter tier/level (Basic, Plus, or Pro)
+- Your supporter tier/level (Personal, Basic, Plus, or Pro)
 - Your subscription status (active/inactive)
 - Your Discord account connection (if linked on Patreon)
 - Subscription tier change history (for enforcement of guild limits)
