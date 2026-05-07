@@ -2,7 +2,7 @@
 
 **Effective Date:** October 1, 2025
 
-**Last Updated:** March 8, 2026
+**Last Updated:** May 7, 2026
 
 By adding Nocturna ("the Bot") to your Discord server or using any of its features, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not use the Bot.
 
@@ -123,16 +123,17 @@ We reserve the right to:
 - We do not process payments or refunds directly
 - Subscription disputes should be resolved through Patreon's support
 
-### 4.9 Vote-Based Temporary Premium
+### 4.9 Vote-Based Temporary Personal Perks
 
-Users may obtain temporary premium access by voting for the Bot on Top.gg:
+Users may obtain temporary Personal-tier user perks by voting for the Bot on Top.gg:
 
-- Voting grants temporary premium access for the duration specified at the time of voting (currently 8 hours per vote)
-- Vote-based premium is subject to change or discontinuation at any time without notice
-- Vote-based premium is personal to the voting user and cannot be transferred or shared
-- Repeated or fraudulent voting to abuse vote-based premium constitutes a violation of these Terms
+- Voting grants temporary perks for the duration specified at the time of voting (currently 12 hours per eligible vote)
+- Vote perks are subject to change or discontinuation at any time without notice
+- Vote perks are personal to the voting user and cannot be transferred or shared
+- Vote perks are user-scoped and do not activate server-level premium in any guild
+- Repeated or fraudulent voting to abuse vote perks constitutes a violation of these Terms
 - Top.gg may impose its own restrictions on bot listing, voting eligibility, or vote frequency; we are not responsible for Top.gg service availability or policy changes
-- Vote-based premium does not constitute a paid subscription and carries no guarantee of duration, availability, or continuity
+- Vote perks do not constitute a paid subscription and carry no guarantee of duration, availability, or continuity
 
 ## 5. User Responsibilities
 
@@ -153,7 +154,7 @@ You agree to use the Bot only for lawful purposes and in accordance with these T
 - Use automatic nickname patterns for harassment, impersonation, or malicious purposes (premium feature)
 - Activate premium in more servers than allowed by your tier
 - Circumvent guild limit enforcement mechanisms
-- Abuse the vote-based premium system through fraudulent, scripted, or coordinated voting
+- Abuse the vote perks system through fraudulent, scripted, or coordinated voting
 - Use the Bot's game metrics, levelling, or starboard features to collect, scrape, or redistribute member data for purposes unrelated to server management
 
 ### 5.2 Server Administrator Responsibilities
@@ -448,7 +449,7 @@ The Bot operates through Discord's platform and integrates with Patreon and Top.
 - Patreon's data handling or privacy practices
 - Top.gg service availability, vote counting accuracy, or API changes
 - Changes to Top.gg's bot listing policies or voting eligibility rules
-- Loss of vote-based premium access due to Top.gg downtime or policy changes
+- Loss of vote perks due to Top.gg downtime or policy changes
 - Top.gg's data handling or privacy practices
 
 ## 14. Indemnification
@@ -549,7 +550,7 @@ By adding Nocturna to your Discord server or using any of its features, you ackn
 - You understand that premium tiers have different guild activation limits
 - You accept that guild activations may be automatically deactivated when exceeding tier limits
 - You understand that custom anti-raid patterns require premium and are archived for 3 months after expiration
-- You understand that vote-based premium grants temporary access per vote as specified at the time of voting, and is subject to change or discontinuation at any time
+- You understand that vote perks grant temporary Personal-tier user perks per eligible vote as specified at the time of voting, and are subject to change or discontinuation at any time
 - You understand that we reserve the right to blacklist any user or server from the Bot at any time without notice, explanation, or appeal
 - You understand that game activity data, levelling/XP records, and starboard records may be collected and stored as described in the Privacy Policy
 - You understand that welcome and goodbye messages are a premium feature
