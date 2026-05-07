@@ -1,7 +1,7 @@
 ﻿# Privacy Policy for Nocturna
 
 **Effective Date:** October 1, 2025  
-**Last Updated:** March 8, 2026
+**Last Updated:** May 7, 2026
 
 This Privacy Policy explains what information Nocturna collects and how we use it.
 
@@ -53,7 +53,7 @@ We use this information only to:
 - Support per-user privacy controls, including message and game presence tracking opt-out with anonymized aggregation where applicable
 - Maintain levelling and XP progression records
 - Record and display starred messages on the starboard
-- Deliver vote-based temporary premium access and vote reminders (Top.gg integration)
+- Deliver temporary Personal-tier user vote perks and vote reminders (Top.gg integration)
 - Maintain accurate bot blacklist records to enforce access restrictions
 - Post aggregate server statistics (server count only, no personal data) to Top.gg
 
@@ -122,7 +122,7 @@ We use this information only to:
 **We integrate with:**
 - **Discord:** Primary platform (subject to Discord's Privacy Policy)
 - **Patreon:** Premium subscription verification (subject to Patreon's Privacy Policy)
-- **Top.gg:** Bot listing and vote-based premium. We send server count (aggregate, not personal data) to Top.gg periodically, and receive vote webhook notifications containing your Discord user ID when you vote for the bot. Subject to Top.gg's Privacy Policy.
+- **Top.gg:** Bot listing and vote-based perks. We send server count (aggregate, not personal data) to Top.gg periodically, and receive vote webhook notifications containing your Discord user ID when you vote for the bot. Vote perks are user-scoped and do not activate server-level premium. Subject to Top.gg's Privacy Policy.
 - **PostgreSQL/Redis:** Secure database hosting for data storage
 
 You should review the privacy policies of these services as they have their own data handling practices.
@@ -169,7 +169,7 @@ Continued use of the bot after changes constitutes acceptance of the updated pol
 - Disconnect their Patreon account
 - Request deletion of their premium subscription data
 - Opt out of game/activity/message tracking via `/privacy`
-- Opt out of vote reminders via `/vote reminder`
+- Opt out of vote reminders via `/vote reminders`
 - Request deletion of their levelling/XP data
 - Request deletion of their vote history
 
