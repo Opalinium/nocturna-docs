@@ -2,7 +2,7 @@
 
 **Effective Date:** October 1, 2025
 
-**Last Updated:** May 7, 2026
+**Last Updated:** August 14, 2026
 
 By adding Nocturna ("the Bot") to your Discord server or using any of its features, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not use the Bot.
 
@@ -28,7 +28,16 @@ Nocturna is a Discord bot that provides:
 - **Ticket System:** Thread-based ticket system; tickets are archived on close and archived threads serve as staff logs
 - **Levelling System:** XP-based server levelling with rank cards, leaderboards, and configurable rewards
 - **Starboard:** Highlight popular messages to a dedicated channel based on configurable reaction thresholds
-- **Game Activity Metrics:** Opt-in server-level tracking of member game/application activity for analytics and leaderboards
+- **Server Metrics:** Opt-in server-level statistics covering voice session activity, per-channel message volume, member join/leave trends, and retention analytics
+- **Verification:** Configurable member verification before granting full server access
+- **Restore Roles:** Automatically reapplies a member's roles if they leave and rejoin
+- **AFK Status:** Set an away message shown to others, cleared automatically when you next send a message
+- **Highlights:** Get notified by DM when a keyword you're watching is mentioned elsewhere in the server
+- **Birthdays:** Register your birthday for optional server birthday announcements
+- **Giveaways:** Host giveaways with configurable entry requirements and winner selection
+- **Personal Tags:** Create reusable text snippets tied to your account, usable in any server
+- **Counter Channels:** Live-updating voice channel names showing server stats (member count, role membership, etc.)
+- **Personal Language & Text:** Set your own language and override individual bot messages sent to you via `/language personal`; server administrators can restrict this in their server via `/language config`
 
 ### Premium Features (Patreon Supporters):
 - **Enhanced Reminders:** 50 active reminders with unlimited repeating support (free tier: 10 reminders, 3 can repeat)
@@ -155,7 +164,7 @@ You agree to use the Bot only for lawful purposes and in accordance with these T
 - Activate premium in more servers than allowed by your tier
 - Circumvent guild limit enforcement mechanisms
 - Abuse the vote perks system through fraudulent, scripted, or coordinated voting
-- Use the Bot's game metrics, levelling, or starboard features to collect, scrape, or redistribute member data for purposes unrelated to server management
+- Use the Bot's metrics, levelling, or starboard features to collect, scrape, or redistribute member data for purposes unrelated to server management
 
 ### 5.2 Server Administrator Responsibilities
 
@@ -253,7 +262,7 @@ Server Administrators assume full liability for all nickname modifications perfo
 
 The Bot collects and stores data as described in our [Privacy Policy](privacy.md). By using the Bot, you consent to data collection and processing as outlined in the Privacy Policy.
 
-Users can manage supported message and game presence tracking preferences through `/privacy`.
+Users can manage supported message tracking preferences through `/privacy`. Server metrics collection is controlled at the server level and can only be enabled or disabled by a Server Administrator.
 
 ### 8.1 Data Retention
 
@@ -261,7 +270,7 @@ Data is retained as specified in our Privacy Policy. **Data is NOT automatically
 
 ### 8.2 Data Security
 
-While we implement reasonable security measures to protect data, including application-level encryption of sensitive fields and secure access controls, we cannot guarantee absolute security. Encrypted fields include message content, author names, moderation and mute reasons, reminder messages, rank card bios, and metrics game names. Certain operational identifiers (such as Discord user IDs, guild IDs, and channel IDs) are stored in plaintext where required for core bot functionality and relational integrity. You acknowledge that you provide data at your own risk.
+While we implement reasonable security measures to protect data, including application-level encryption of sensitive fields and secure access controls, we cannot guarantee absolute security. Encrypted fields include message content, author names, moderation and mute reasons, reminder messages, and rank card bios. Certain operational identifiers (such as Discord user IDs, guild IDs, and channel IDs) are stored in plaintext where required for core bot functionality and relational integrity. You acknowledge that you provide data at your own risk.
 
 ### 8.3 Patreon Data
 
@@ -465,7 +474,7 @@ You agree to indemnify, defend, and hold harmless the Bot operator, its affiliat
 - Use of premium features or custom branding
 - Use or misuse of automatic nickname patterns (premium feature)
 - Use or misuse of welcome/goodbye message features (premium feature)
-- Use or misuse of game metrics, levelling, or starboard features
+- Use or misuse of metrics, levelling, or starboard features
 - Disputes with Patreon regarding billing or subscriptions
 - Disputes with Top.gg regarding voting or bot listings
 
@@ -552,7 +561,7 @@ By adding Nocturna to your Discord server or using any of its features, you ackn
 - You understand that custom anti-raid patterns require premium and are archived for 3 months after expiration
 - You understand that vote perks grant temporary Personal-tier user perks per eligible vote as specified at the time of voting, and are subject to change or discontinuation at any time
 - You understand that we reserve the right to blacklist any user or server from the Bot at any time without notice, explanation, or appeal
-- You understand that game activity data, levelling/XP records, and starboard records may be collected and stored as described in the Privacy Policy
+- You understand that server metrics data, levelling/XP records, and starboard records may be collected and stored as described in the Privacy Policy
 - You understand that welcome and goodbye messages are a premium feature
 
 ---
