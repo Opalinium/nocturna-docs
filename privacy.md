@@ -10,7 +10,8 @@ This Privacy Policy explains what information Nocturna collects and how we use i
 **To make the bot work, we collect:**
 - Discord user IDs, usernames, and server information
 - Message IDs and timestamps for moderation logs
-- Message content for logging and moderation, subject to per-user privacy controls via `/privacy`
+- Message content for logging and log search, subject to per-user privacy controls via `/privacy`
+- Recent message content in a separate transient moderation buffer, retained for up to 72 hours and used only to enforce spam detection and content filters. It is never shown in logs, never searchable, and is not affected by `/privacy` opt-out
 - Voice channel activity: join/leave events are written to your server's configured log channel, and when the metrics feature is enabled, voice sessions (channel ID, start and end time, and session duration) are also stored for server statistics
 - Invite usage and role assignments
 - Commands you use and buttons you click
@@ -77,7 +78,8 @@ We use this information only to:
 **How long we keep data:**
 - Moderation logs: Until you delete them
 - Voice session records (metrics feature): Stored indefinitely while the metrics feature is active; deleted on server request or when the Bot is removed from your server
-- Message content: Deleted when message is deleted from Discord, or automatically after 1 year (365 days for free servers, 730 days for premium servers). Message tracking opt-out settings are respected
+- Message content: Deleted when message is deleted from Discord, or automatically after 1 year (365 days for free servers, 730 days for premium servers). When you opt out via `/privacy`, new message caching stops immediately, your already-stored messages are hidden from logs and log search immediately, and they are permanently deleted after a 30-day grace period; opting back in during that window cancels the deletion and restores visibility
+- Transient moderation buffer (recent message content used for spam and filter enforcement): Up to 72 hours, then permanently deleted; not affected by `/privacy` opt-out
 - Media thumbnails: 30 days for free servers, 730 days for premium servers
 - Invite tracking: Retained indefinitely while the Bot remains in your server, used to attribute new-member joins to the referring invite; deleted when the Bot is removed from your server
 - Your settings/tags: Until you delete them
